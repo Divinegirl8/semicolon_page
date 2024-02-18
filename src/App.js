@@ -30,6 +30,12 @@ import site from "./images/site.png";
 import data from "./images/dataA.png";
 import dataBase from "./images/dataBase.png";
 import criticalThinker from "./images/criticalThinking.png";
+import business from "./images/busman.png";
+import boardRoom from "./images/Boardroom_yxnx3f.jpg";
+import ingressive from "./images/IngressiveMicro-scholarship_e1qvsu.png";
+import dataSlide from "./images/Data_lvj7pu.png";
+import slideRight from "./images/oooh.png";
+import slideLeft from "./images/bbbb.png";
 
 
 
@@ -170,9 +176,32 @@ function App() {
           </div>
         </div>
       </Carousel.Item>
+
+
+      <Carousel.Item>
+      <div className="background-slide">
+          <div className="image-half6" >
+          <h2>What you would learn</h2>
+          <img src={business} alt=''></img>
+          </div>
+        </div>
+      </Carousel.Item>
     </Carousel>
 
 
+    <h2 className='winsText'>Our Wins</h2>
+
+    <div className='wins'>
+      <div className="slides">
+
+      <a className="next"  href='f' id='arrow'><img src={slideLeft} width="110"style={{marginLeft:"55px",marginTop:"55px"}} alt=''></img></a>
+      <img src={boardRoom} alt='slide1'></img>
+      <img src={ingressive} alt='slide2'></img>
+      <img src={dataSlide} alt='slide3'></img>
+      <a className="prev" href='w' id='arrow'><img src={slideRight} width="110" style={{marginLeft:"-15px",marginTop:"55px"}}alt=''></img></a>
+  
+    </div>
+      </div>
 
       <div className='partners'>
         <img src={partners} alt=''></img>

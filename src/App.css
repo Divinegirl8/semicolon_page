@@ -101,12 +101,12 @@ nav{
  .image h1{
   margin-top: 310px;
   color: #1e323f;
-  font-size: 48px;
+  font-size: 49px;
   font-weight: 500;
   margin-left: 160px;
   line-height: 60px;
   letter-spacing: -.04em;
-  width: 28%;
+  width: 29%;
 }
 
 .image span{
@@ -139,9 +139,265 @@ nav{
   margin-top: 200px;
   display: flex;
   justify-content: center;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   line-height: 42px;
   letter-spacing: -.02em;
   color: #1e323f;
 }
+
+.native-comment {
+  background-color: #FFEEEC;
+  width: 100%;
+  height: 530px;
+
+}
+
+.slides{
+  margin-left: 140px;
+  position: relative;
+}
+
+.slides img{
+  margin-top: 40px;
+  padding-left: 20px;
+}
+
+#arrow{
+position: absolute;
+top: 40%;
+/* left: 0; */
+}
+.prev{
+margin-inline-start: -1%;
+}
+.next{
+  left: -2%;
+}
+.third-page {
+  width: 100%;
+  background-color: #fff;
+  height: auto;
+  overflow: hidden;
+}
+
+.third-page h3 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: -.02em;
+  color: #1e323f;
+  margin-top: 185px;
+}
+
+.third-page ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+.third-page ul li {
+  display: inline-block;
+  margin-right: 20px
+}
+
+.batch-two {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  
+}
+
+.batch-two ul li{
+  display: inline;
+}
+
+.batch-two p {
+  width: 300px; 
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #1e323f;
+  margin-left: 80px;
+  position: relative;
+  width: 23%;
+  
+
+}
+
+.batch-two span a {
+  color: #1976d2;
+  text-decoration: none;
+}
+
+
+.swit{
+  margin-left: 100px;
+}
+
+.swit img{
+  margin-left: -33px;
+  margin-top: 20px;
+  width: 26%;
+}
+
+.move{
+  margin-left: 550px;
+  position: absolute;
+  top: 220%;
+}
+
+footer{
+  width: 100%;
+  height: 1000px;
+}
+
+.townCrier{
+  margin-top: 150px;
+}
+
+.townCrier{
+  background-image: url('./images/townCrierBackground_cdla2j.png');
+  background-size: contain;
+  width: 100%; 
+  background-position: right;
+  background-repeat: no-repeat; 
+  height: 44vh;
+  padding-top: 60px;
+  position: relative;
+}
+
+.townCrier h1{
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 39px;
+  line-height: 42px;
+  letter-spacing: -.02em;
+  color: #fff;
+  margin-top: 4%;
+  
+
+}
+
+.townCrier p{
+margin-left: 37%;
+  margin-top: 17px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  color: #fff;
+  width: 27%;
+
+}
+
+.townCrier form{
+  display: flex;
+  justify-content: center;
+  margin-top: 87px;
+  margin-right: 110px;
+
+}
+
+.townCrier li{
+  display: inline;
+  padding-left: 40px;
+}
+
+.townCrier input{
+  border-width: 100%;
+  height: 40px;
+  background-color: transparent;
+ 
+}
+
+.townCrier input::placeholder{
+  font-size: 16px;
+}
+
+.inline-form {
+  display: flex;
+  list-style-type: none;
+  padding: 0; 
+}
+
+.inline-form li {
+  margin-right: 10px; 
+}
+
+.inline-form input[type='text'],
+.inline-form button {
+  padding: 5px 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 3px; 
+  border-radius: 10px;
+}
+
+.inline-form button {
+  background-color: #fff; 
+  color: #fff;
+  border: none;
+  cursor: pointer; 
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.inline-form button a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color:  #1e323f;
+}
+
+.partners{
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.become-native{
+  background-image: url('./images/native-background_akyk8r.svg');
+  background-size: contain;
+  width: 80%; 
+  background-position: right;
+  background-repeat: no-repeat; 
+  margin-left: 10%;
+  height: 50vh;
+  padding-top: 60px;
+  position: relative;
+  margin-top: 100px;
+}
+
+.become-native #img{
+  margin-left: -180px;
+  margin-top: 50px;
+
+}
+
+.img2{
+  margin-left: 450px;
+  position: absolute;
+   top: 35%;}
+
+   .become-native button{
+    margin-left: 750px;
+    position: absolute;
+     top: 55%;
+     width: 150px;
+     height: 50px;
+     border-radius: 10px;
+     background-color: white;
+     border: none;
+     
+   }
+
+   .become-native a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color:  red;
+   }

@@ -136,7 +136,7 @@ nav{
 }
 
 .image h3{
-  margin-top: 200px;
+  margin-top: 120px;
   display: flex;
   justify-content: center;
   font-weight: 500;
@@ -248,18 +248,15 @@ margin-inline-start: -1%;
   top: 220%;
 }
 
-footer{
-  width: 100%;
-  height: 1000px;
-}
+
 
 .townCrier{
-  margin-top: 150px;
+  margin-top: 10px;
 }
 
 .townCrier{
   background-image: url('./images/townCrierBackground_cdla2j.png');
-  background-size: contain;
+  background-size: cover;
   width: 100%; 
   background-position: right;
   background-repeat: no-repeat; 
@@ -384,7 +381,7 @@ margin-left: 37%;
    top: 35%;}
 
    .become-native button{
-    margin-left: 750px;
+    margin-left: 700px;
     position: absolute;
      top: 55%;
      width: 150px;
@@ -401,3 +398,208 @@ margin-left: 37%;
     font-weight: 600;
     color:  red;
    }
+
+   .select-tag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./images/squaredots_s9xzku\(1\).svg');
+    background-size: 20%; 
+    background-position: right;
+    background-repeat: no-repeat; 
+    height: 100vh;
+    position: relative;
+    margin-top: -100px;
+  }
+  
+  .select-tag > .ExpansionPanel {
+    margin-bottom: 20px; 
+  }
+  
+   
+     .frequently{
+       display: flex;
+       justify-content: center;
+      color: #1e323f;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 60px;
+      letter-spacing: -.04em;
+      margin-top: 100px;
+     
+    }
+    
+ 
+
+   footer{
+    width: 100%;
+    height: 550px;
+  }
+
+  .firstLine ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: 120px;
+  }
+
+  .firstLine ul li {
+    display: inline-block;
+    margin-right: 250px;
+  }
+
+  footer h3{
+    font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #1e323f;
+  letter-spacing: -.02em;
+  }
+
+  footer p{
+    font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  letter-spacing: -.02em;
+  margin-top: 12px;
+  }
+
+  footer a{
+    color: #2b1c1c;
+    text-decoration: none;
+  }
+
+  footer a:hover{
+    color: #2b1c1c;
+    text-decoration: underline;
+  }
+  
+
+  footer .copyright{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #1e323f;
+  margin-top: 80px;
+  }
+
+  .secondLine .ul{
+  margin-left: 420px;
+    margin-top: 80px;
+    
+  }
+
+  .secondLine .ul .list {
+    display: inline-block;
+    margin-right: 220px;
+  }
+
+  .secondLine .address{
+    width: 70%;
+   
+  }
+
+  #followUs ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: -40px;
+    
+  }
+  #followUs{
+    margin-left: -140px;
+  }
+
+  #followUs ul li{
+    display: inline-block;
+    margin-right: 10px;
+   
+  }
+
+  #contact{
+    margin-left: -10px;
+  }
+
+.image-half{
+  background-image: url('./images/i1.png');
+  background-size: 48%; 
+  background-position: right;
+  background-repeat: no-repeat; 
+  margin-top: 160px;
+}
+
+.background-slide{
+  background-color: #DAEBFD;
+  height: 70vh;
+
+}
+
+.background-slide h2{
+  margin-left: 90px;
+  padding-top: 50px;
+}
+
+.background-slide img{
+  margin-left: 50px;
+}
+
+
+.image-half2{
+  background-image: url('./images/i7.png');
+  background-size: 48%; 
+  background-position: right;
+  background-repeat: no-repeat; 
+  margin-top: 160px;
+}
+
+.image-half3{
+  background-image: url('./images/i2.png');
+  background-size: 48%; 
+  background-position: right;
+  background-repeat: no-repeat; 
+  margin-top: 160px;
+}
+
+.image-half4{
+  background-image: url('./images/i8.png');
+  background-size: 48%; 
+  background-position: right;
+  background-repeat: no-repeat; 
+  margin-top: 160px;
+}
+
+.image-half5{
+  background-image: url('./images/i4.png');
+  background-size: 48%; 
+  background-position: right;
+  background-repeat: no-repeat; 
+  margin-top: 160px;
+}
+.carousel {
+  .carousel-indicators {
+      display: none;
+  }
+}
+
+
+.carousel-control-next-icon {
+    background-image: url('./images/sRight.png') !important;
+    width: 40px !important;
+    height: 40px !important;
+    margin-left: 180px !important;
+    margin-top: 200px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url('./images/sLeft.png') !important;
+  width: 40px !important;
+  height: 40px !important;
+ margin-right: 200px;
+  margin-top: 200px;
+}
+
+
+

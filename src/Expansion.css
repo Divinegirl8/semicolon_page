@@ -1,0 +1,30 @@
+.panel {
+    width: 58%;
+    margin: 20px auto 0;
+  }
+  
+  .panel:first-child {
+    margin-top: 0;
+  }
+  
+  .panel-header, .panel-content {
+    background-color: #FFF3EA;
+    border-radius: 5px;
+    padding: 20px;
+    padding-left: 20px;
+
+  }
+  
+.panel-header{
+    font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -.01em;
+
+}
+
+  .arrow {
+    float: right;
+  }
+  
+  

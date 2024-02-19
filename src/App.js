@@ -95,7 +95,7 @@ function App() {
         <h1>Become a <span>Skilled Software Engineer,</span> Without Prior Knowledge.</h1>
         <p>Get the skills and experience you need to become a Software Engineer, in today’s global market.</p>
       
-      <ul>
+      <ul >
         <li><a href='https://apply.semicolon.africa/' target='_blank'  rel="noreferrer"><img src={applyF} alt='' ></img></a></li>
         <li><a href='w'><img src={watchVideo} alt='' ></img></a></li>
       </ul>
@@ -198,7 +198,7 @@ function App() {
       <img src={boardRoom} alt='slide1'></img>
       <img src={ingressive} alt='slide2'></img>
       <img src={dataSlide} alt='slide3'></img>
-      <a className="prev" href='w' id='arrow'><img src={slideRight} width="110" style={{marginLeft:"-15px",marginTop:"55px"}}alt=''></img></a>
+      <a className="prev" href='w' id='arrow'><img src={slideRight} width="110" style={{marginLeft:"-28px",marginTop:"55px"}}alt=''></img></a>
   
     </div>
       </div>
@@ -265,7 +265,7 @@ Semicolon addresses the problem of youth unemployment by training software engin
  </ul>
 </div>
 
-      <footer>
+      <footer >
         <div className='firstLine'>
         <ul>
 
@@ -305,13 +305,13 @@ Semicolon addresses the problem of youth unemployment by training software engin
             <p><a href='tel:+2349060008609'> +234 906 000 8609</a></p>
           </li>
 
-          <li className='list'>
+          <li className='list' id='addr'>
           <h3>Address</h3>
             <p className='address'><a href='https://maps.google.com/?q=312+Herbert+Macaulay+Way,++Sabo,+Yaba,+Lagos,+Nigeria&entry=gmail&source=g'>312 Herbert Macaulay Way, Sabo Yaba, Lagos.</a></p>
           </li>
 
 
-          <li className='list' id='followUs'>
+          <li className='list' id='followUs' >
           <h3>Follow Us</h3>
           <div>
           

@@ -245,7 +245,7 @@ margin-inline-start: -1%;
 .move{
   margin-left: 550px;
   position: absolute;
-  top: 220%;
+  top: 227%;
 }
 
 
@@ -511,7 +511,10 @@ margin-left: 37%;
   }
   #followUs{
     margin-left: -140px;
+    
   }
+
+
 
   #followUs ul li{
     display: inline-block;

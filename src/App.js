@@ -198,7 +198,7 @@ function App() {
       <img src={boardRoom} alt='slide1'></img>
       <img src={ingressive} alt='slide2'></img>
       <img src={dataSlide} alt='slide3'></img>
-      <a className="prev" href='w' id='arrow'><img src={slideRight} width="110" style={{marginLeft:"-28px",marginTop:"55px"}}alt=''></img></a>
+      <a className="prev" href='w' id='arrow'><img src={slideRight} width="110" style={{marginLeft:"-60px",marginTop:"55px"}}alt=''></img></a>
   
     </div>
       </div>
